@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     @IBAction func tapdat(_ sender: Any) {
         tapCount = tapCount + 1
         
-        if tapCount >= 10 {
-            theLabel.text = "You tapped dat 10 times"
+        if tapCount >= 20 {
+            theLabel.text = "You tapped dat 20 times"
         }
         }
     @IBAction func tappity(_ sender: Any) {
